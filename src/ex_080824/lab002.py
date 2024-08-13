@@ -1,1 +1,3 @@
-print("22+34-54*66")
+print("Mohammed", "khalid", "saifulla", "sep= _", "end= /")
+print("shaik kattubadi")
+
