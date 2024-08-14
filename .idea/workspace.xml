@@ -7,19 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="347a21e2-c525-49df-a486-6671136d9403" name="Changes" comment="lab002 added">
-      <change afterPath="$PROJECT_DIR$/src/ex 10-08-24/lab003.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 10-08-24/lab004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 10-08-24/lab005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 10-08-24/lab006.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 13-08-24/lab0010.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 13-08-24/lab007.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 13-08-24/lab008.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex 13-08-24/lab009.py" afterDir="false" />
+    <list default="true" id="347a21e2-c525-49df-a486-6671136d9403" name="Changes" comment="10,13 and home work">
+      <change afterPath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_080824/lab001.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_080824/lab001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex_080824/lab002.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex_080824/lab002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="khalid &lt;saifullakattubadi@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
@@ -49,6 +45,9 @@
     "accountId": "cd980a4e-7a18-4754-9cc0-b048fb7b4319"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -67,6 +66,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.hm01.executor": "Run",
+    "Python.hm02.executor": "Run",
     "Python.lab001.executor": "Run",
     "Python.lab0010.executor": "Run",
     "Python.lab002.executor": "Run",
@@ -134,12 +134,29 @@
       <option name="project" value="LOCAL" />
       <updated>1723138983963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="10,13 and home work">
+      <option name="closed" value="true" />
+      <created>1723577734802</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723577734802</updated>
+    </task>
+    <task id="LOCAL-00003" summary="10,13 and home work">
+      <option name="closed" value="true" />
+      <created>1723577959646</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723577959646</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lab002 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab002 added" />
+    <MESSAGE value="10,13 and home work" />
+    <option name="LAST_COMMIT_MESSAGE" value="10,13 and home work" />
   </component>
 </project>
