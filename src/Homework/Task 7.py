@@ -14,5 +14,3 @@ else:
     print(f" The {y} is not a leap year")
 
 
-#elif(y/100):
- #   print("This is not a leap year")
