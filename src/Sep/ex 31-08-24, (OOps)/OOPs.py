@@ -67,3 +67,4 @@ dog =Dog("mow",10,"lulu")
 print(dog.name)
 dog.sleep()
 dog.barking("dow")
+hello
