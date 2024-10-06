@@ -7,10 +7,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="347a21e2-c525-49df-a486-6671136d9403" name="Changes" comment="10,13 and home work">
-      <change afterPath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm02.py" afterDir="false" />
+    <list default="true" id="347a21e2-c525-49df-a486-6671136d9403" name="Changes" comment="OOps concepts">
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex 17-08-24/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex 17-08-24/operator concepts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aug/ex_080824/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/Loops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/date types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sep API theory and practicle/API theory Concepts..py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sep API theory and practicle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab003.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab003.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab004.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab004.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab005.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab005.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab006.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab006.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm02.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab0010.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab0010.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab007.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab007.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab008.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab008.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab009.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab009.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 17-08-24/operator concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 17-08-24/theory concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 17-08-24/theory concepts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 20,22,24-08-24/Decoratives.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Decoratives.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 20,22,24-08-24/Functions and types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Functions and types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 20,22,24-08-24/Lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Lambda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_080824/lab001.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex_080824/lab001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex_080824/lab002.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex_080824/lab002.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,27 +67,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "khalidsaifs"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;khalidsaifs&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/khalidsaifs/pyATB4x.git",
-    "accountId": "cd980a4e-7a18-4754-9cc0-b048fb7b4319"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/khalidsaifs/pyATB4x.git&quot;,
+    &quot;accountId&quot;: &quot;cd980a4e-7a18-4754-9cc0-b048fb7b4319&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2kNwU32ZhnMDqPiuNwZGtfht9ra" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,26 +96,82 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.hm01.executor": "Run",
-    "Python.hm02.executor": "Run",
-    "Python.lab001.executor": "Run",
-    "Python.lab0010.executor": "Run",
-    "Python.lab002.executor": "Run",
-    "Python.lab003.executor": "Run",
-    "Python.lab004.executor": "Run",
-    "Python.lab006.executor": "Run",
-    "Python.lab007.executor": "Run",
-    "Python.lab008.executor": "Run",
-    "Python.lab009.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.00ps 5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Decoratives.executor&quot;: &quot;Run&quot;,
+    &quot;Python.File Handling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Functions and types.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lambda.executor&quot;: &quot;Run&quot;,
+    &quot;Python.List.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Loops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPs home work.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOPs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOps (object oriented programming.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOps 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.OOps 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oops 4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Set.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task 9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.date types.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dictionary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hm01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hm02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab0010.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab003.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab004.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab007.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab008.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab009.executor&quot;: &quot;Run&quot;,
+    &quot;Python.os module.executor&quot;: &quot;Run&quot;,
+    &quot;Python.theory concepts.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\Sep" />
+      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\Aug" />
+      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\Homework " />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.lab006">
+    <configuration name="List" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pyATB4x" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Personel practice questins of the below topics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lab006" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pyATB4x" />
       <option name="ENV_FILES" value="" />
@@ -106,6 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.List" />
         <item itemvalue="Python.lab006" />
       </list>
     </recent_temporary>
@@ -150,13 +241,76 @@
       <option name="project" value="LOCAL" />
       <updated>1723577959646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="10,13 and home work">
+      <option name="closed" value="true" />
+      <created>1723663531235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723663531235</updated>
+    </task>
+    <task id="LOCAL-00005" summary="10,13 and home work">
+      <option name="closed" value="true" />
+      <created>1724263741789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724263741789</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task7,8,9">
+      <option name="closed" value="true" />
+      <created>1724450997010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724450997010</updated>
+    </task>
+    <task id="LOCAL-00007" summary="List, Tuple, Set and Dictionary">
+      <option name="closed" value="true" />
+      <created>1725060240863</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725060240863</updated>
+    </task>
+    <task id="LOCAL-00008" summary="31-08-24, OOPs">
+      <option name="closed" value="true" />
+      <created>1725117923850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725117923850</updated>
+    </task>
+    <task id="LOCAL-00009" summary="OOps concepts">
+      <option name="closed" value="true" />
+      <created>1725989186993</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725989186993</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lab002 added" />
     <MESSAGE value="10,13 and home work" />
-    <option name="LAST_COMMIT_MESSAGE" value="10,13 and home work" />
+    <MESSAGE value="Task7,8,9" />
+    <MESSAGE value="List, Tuple, Set and Dictionary" />
+    <MESSAGE value="31-08-24, OOPs" />
+    <MESSAGE value="OOps concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOps concepts" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
