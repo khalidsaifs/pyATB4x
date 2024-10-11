@@ -1,0 +1,8 @@
+diff --git a/src/Sep/__init__.py b/src/python/Aug/ex_080824/__init__.py
+rename from src/Sep/__init__.py
+rename to src/python/Aug/ex_080824/__init__.py
+diff --git a/src/python/__init__.py b/src/python/__init__.py
+new file mode 100644
+diff --git a/src/Sep/ex 31-08-24, (OOps)/__init__.py b/src/python/Personel practice questins of the below topics/__init__.py
+rename from src/Sep/ex 31-08-24, (OOps)/__init__.py
+rename to src/python/Personel practice questins of the below topics/__init__.py

@@ -1,0 +1,550 @@
+Index: pytest.ini
+===================================================================
+diff --git a/pytest.ini b/pytest.ini
+new file mode 100644
+--- /dev/null	
++++ b/pytest.ini	
+@@ -0,0 +1,4 @@
++[pytest]
++markers =
++    smoke: marks tests as part of the smoke suite
++    reg: marks tests as part of the regression suite
+Index: .idea/encodings.xml
+===================================================================
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/encodings.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/pytest.ini" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/pyATB4x.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"PYTHON_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <excludeFolder url=\"file://$MODULE_DIR$/.venv\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/pyATB4x.iml b/.idea/pyATB4x.iml
+--- a/.idea/pyATB4x.iml	
++++ b/.idea/pyATB4x.iml	
+@@ -7,4 +7,10 @@
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
++  <component name="PackageRequirementsSettings">
++    <option name="requirementsPath" value="" />
++  </component>
++  <component name="TestRunnerService">
++    <option name="PROJECT_TEST_RUNNER" value="py.test" />
++  </component>
+ </module>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AnalysisUIOptions\">\r\n    <option name=\"ANALYZE_INJECTED_CODE\" value=\"false\" />\r\n  </component>\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"347a21e2-c525-49df-a486-6671136d9403\" name=\"Changes\" comment=\"OOps concepts\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex 10-08-24/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex 17-08-24/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex 17-08-24/operator concepts.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Aug/ex_080824/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Personel practice questins of the below topics/Loops.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Personel practice questins of the below topics/date types.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Personel practice questins of the below topics/functions.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Sep API theory and practicle/API theory Concepts..py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/Sep API theory and practicle/__init__.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/__init__.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 10-08-24/lab003.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 10-08-24/lab003.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 10-08-24/lab004.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 10-08-24/lab004.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 10-08-24/lab005.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 10-08-24/lab005.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 10-08-24/lab006.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 10-08-24/lab006.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm01.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 13-08-24/Home work/hm02.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm02.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 13-08-24/lab0010.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/lab0010.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 13-08-24/lab007.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/lab007.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 13-08-24/lab008.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/lab008.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 13-08-24/lab009.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 13-08-24/lab009.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 17-08-24/operator concepts.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/__init__.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 17-08-24/theory concepts.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 17-08-24/theory concepts.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 20,22,24-08-24/Decoratives.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Decoratives.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 20,22,24-08-24/Functions and types.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Functions and types.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 20,22,24-08-24/Lambda.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Lambda.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex_080824/lab001.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex_080824/lab001.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ex_080824/lab002.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Aug/ex_080824/lab002.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"khalid &lt;saifullakattubadi@gmail.com&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"SET_USER_NAME_GLOBALLY\" value=\"false\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;khalidsaifs&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/khalidsaifs/pyATB4x.git&quot;,\r\n    &quot;accountId&quot;: &quot;cd980a4e-7a18-4754-9cc0-b048fb7b4319&quot;\r\n  }\r\n}</component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2kNwU32ZhnMDqPiuNwZGtfht9ra\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;Python.00ps 5.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Decoratives.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.File Handling.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Functions and types.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Lambda.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.List.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Loops.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.OOPs home work.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.OOPs.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.OOps (object oriented programming.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.OOps 2.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.OOps 3.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Oops 4.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Set.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task 4.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task 5.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task 6.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task 7.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task 8.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Task 9.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.Tuple.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.date types.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.dictionary.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.exception.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.functions.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.hm01.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.hm02.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab001.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab0010.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab002.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab003.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab004.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab006.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab007.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab008.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.lab009.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.os module.executor&quot;: &quot;Run&quot;,\r\n    &quot;Python.theory concepts.executor&quot;: &quot;Run&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\khali\\PycharmProjects\\pyATB4x\\src\\Sep\" />\r\n      <recent name=\"C:\\Users\\khali\\PycharmProjects\\pyATB4x\\src\\Aug\" />\r\n      <recent name=\"C:\\Users\\khali\\PycharmProjects\\pyATB4x\\src\\Homework \" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.lab006\">\r\n    <configuration name=\"List\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pyATB4x\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src/Personel practice questins of the below topics\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"lab006\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"pyATB4x\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/src/ex 10-08-24\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/src/ex 10-08-24/lab006.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.List\" />\r\n        <item itemvalue=\"Python.lab006\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-f5635417b835-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18968.29\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"347a21e2-c525-49df-a486-6671136d9403\" name=\"Changes\" comment=\"\" />\r\n      <created>1723137355621</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1723137355621</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"lab002 added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723138983963</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723138983963</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"10,13 and home work\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723577734802</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723577734802</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"10,13 and home work\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723577959646</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723577959646</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"10,13 and home work\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723663531235</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723663531235</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"10,13 and home work\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724263741789</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724263741789</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Task7,8,9\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724450997010</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724450997010</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"List, Tuple, Set and Dictionary\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725060240863</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725060240863</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"31-08-24, OOPs\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725117923850</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725117923850</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"OOps concepts\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1725989186993</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1725989186993</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"lab002 added\" />\r\n    <MESSAGE value=\"10,13 and home work\" />\r\n    <MESSAGE value=\"Task7,8,9\" />\r\n    <MESSAGE value=\"List, Tuple, Set and Dictionary\" />\r\n    <MESSAGE value=\"31-08-24, OOPs\" />\r\n    <MESSAGE value=\"OOps concepts\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"OOps concepts\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -8,43 +8,75 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="347a21e2-c525-49df-a486-6671136d9403" name="Changes" comment="OOps concepts">
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex 17-08-24/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex 17-08-24/operator concepts.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Aug/ex_080824/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/Loops.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/date types.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Personel practice questins of the below topics/functions.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Sep API theory and practicle/API theory Concepts..py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/Sep API theory and practicle/__init__.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/0410d5b8-5468-4b18-938d-e0b5c5f7cedf-attachment.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/066aee78-6d83-43de-a726-a26694ddcc76-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/0a9c7d6b-7ddb-4c48-995d-a5ab45d53282-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/7de5755d-8c3b-430e-a550-154b62fd9bd1-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/8d8377ff-e594-49b6-ba58-3869b36a7d10-attachment.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/bcbaefc8-0d64-4b57-88b3-c56cec5a9f5c-attachment.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/bcce6171-afd0-470f-b4e8-32b8b462ddce-result.json" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/allure_reports/facc614b-da95-41f6-b8fd-1294ece22c18-attachment.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oct/Test_Get_booking.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oct/pytest" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oct/rules.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oct/test_lab1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/oct/test_lab2.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/python/Sep/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/python/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/pyATB4x.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyATB4x.iml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab003.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab003.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab004.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab004.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab005.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab005.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 10-08-24/lab006.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab006.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm01.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/Home work/hm02.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm02.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab0010.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab0010.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab007.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab007.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab008.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab008.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 13-08-24/lab009.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab009.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 17-08-24/operator concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/__init__.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 17-08-24/theory concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 17-08-24/theory concepts.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 20,22,24-08-24/Decoratives.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Decoratives.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 20,22,24-08-24/Functions and types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Functions and types.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 20,22,24-08-24/Lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Lambda.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex_080824/lab001.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex_080824/lab001.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ex_080824/lab002.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aug/ex_080824/lab002.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/oct/Sep API theory and practicle/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 10-08-24/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/oct/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab003.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 10-08-24/lab003.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab004.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 10-08-24/lab004.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab005.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 10-08-24/lab005.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 10-08-24/lab006.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 10-08-24/lab006.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm01.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/Home work/hm01.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/Home work/hm02.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/Home work/hm02.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 10-08-24/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab0010.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/lab0010.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab007.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/lab007.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab008.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/lab008.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 13-08-24/lab009.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/lab009.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 17-08-24/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/Home work/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 17-08-24/operator concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 17-08-24/operator concepts.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 17-08-24/theory concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 17-08-24/theory concepts.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Decoratives.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 20,22,24-08-24/Decoratives.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Functions and types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 20,22,24-08-24/Functions and types.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/Lambda.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 20,22,24-08-24/Lambda.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 20,22,24-08-24/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 13-08-24/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 17-08-24/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex_080824/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 20,22,24-08-24/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex_080824/lab001.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex_080824/lab001.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Aug/ex_080824/lab002.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex_080824/lab002.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Personel practice questins of the below topics/List.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Personel practice questins of the below topics/Loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Personel practice questins of the below topics/Loops.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Personel practice questins of the below topics/date types.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Personel practice questins of the below topics/date types.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Personel practice questins of the below topics/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Personel practice questins of the below topics/functions.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep API theory and practicle/API theory Concepts..py" beforeDir="false" afterPath="$PROJECT_DIR$/src/oct/Sep API theory and practicle/API theory Concepts..py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep API theory and practicle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Aug/ex_080824/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/00ps 5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/00ps 5.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/File Handling.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/File Handling.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/OOPs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/OOPs.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/OOps (object oriented programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/OOps (object oriented programming.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/OOps 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/OOps 2.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/OOps 3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/OOps 3.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/Oops 4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/Oops 4.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Personel practice questins of the below topics/__init__.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/exception.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/exception.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/os module.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/os module.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/test data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/test data.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/testdata.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/testdata.csv" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Sep/ex 31-08-24, (OOps)/testdata.csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/Sep/ex 31-08-24, (OOps)/testdata.csv.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -96,60 +128,70 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+-    &quot;Python.00ps 5.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Decoratives.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.File Handling.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Functions and types.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Lambda.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.List.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Loops.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.OOPs home work.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.OOPs.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.OOps (object oriented programming.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.OOps 2.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.OOps 3.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Oops 4.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Set.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Task 4.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Task 5.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Task 6.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Task 7.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Task 8.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Task 9.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.Tuple.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.date types.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.dictionary.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.exception.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.hm01.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.hm02.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab001.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab0010.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab002.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab003.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab004.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab006.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab007.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab008.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.lab009.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.os module.executor&quot;: &quot;Run&quot;,
+-    &quot;Python.theory concepts.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
++    "Python tests.Python tests in test_lab1.py.executor": "Run",
++    "Python tests.pytest for test_lab2.test_verify_sub.executor": "Run",
++    "Python tests.pytest in Test_Get_booking.py.executor": "Run",
++    "Python tests.pytest in test_lab2.py.executor": "Run",
++    "Python.00ps 5.executor": "Run",
++    "Python.Decoratives.executor": "Run",
++    "Python.File Handling.executor": "Run",
++    "Python.Functions and types.executor": "Run",
++    "Python.Lambda.executor": "Run",
++    "Python.List.executor": "Run",
++    "Python.Loops.executor": "Run",
++    "Python.OOPs home work.executor": "Run",
++    "Python.OOPs.executor": "Run",
++    "Python.OOps (object oriented programming.executor": "Run",
++    "Python.OOps 2.executor": "Run",
++    "Python.OOps 3.executor": "Run",
++    "Python.Oops 4.executor": "Run",
++    "Python.Set.executor": "Run",
++    "Python.Task 4.executor": "Run",
++    "Python.Task 5.executor": "Run",
++    "Python.Task 6.executor": "Run",
++    "Python.Task 7.executor": "Run",
++    "Python.Task 8.executor": "Run",
++    "Python.Task 9.executor": "Run",
++    "Python.Tuple.executor": "Run",
++    "Python.date types.executor": "Run",
++    "Python.dictionary.executor": "Run",
++    "Python.exception.executor": "Run",
++    "Python.functions.executor": "Run",
++    "Python.hm01.executor": "Run",
++    "Python.hm02.executor": "Run",
++    "Python.lab001.executor": "Run",
++    "Python.lab0010.executor": "Run",
++    "Python.lab002.executor": "Run",
++    "Python.lab003.executor": "Run",
++    "Python.lab004.executor": "Run",
++    "Python.lab006.executor": "Run",
++    "Python.lab007.executor": "Run",
++    "Python.lab008.executor": "Run",
++    "Python.lab009.executor": "Run",
++    "Python.os module.executor": "Run",
++    "Python.test_lab1.executor": "Run",
++    "Python.theory concepts.executor": "Run",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "master",
++    "ignore.virus.scanning.warn.message": "true",
++    "run.code.analysis.last.selected.profile": "pProject Default",
++    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\Sep" />
+-      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\Aug" />
+-      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\Homework " />
++      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\oct" />
++      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\Oct_API _automation" />
++      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\OCT API Automation" />
++      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src\python" />
++      <recent name="C:\Users\khali\PycharmProjects\pyATB4x\src" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.lab006">
++  <component name="RunManager">
+     <configuration name="List" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="pyATB4x" />
+       <option name="ENV_FILES" value="" />
+@@ -194,10 +236,44 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
++    <configuration name="Python tests in test_lab1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
++      <module name="pyATB4x" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OCT API Automation" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/oct/test_lab1.py&quot;" />
++      <option name="_new_targetType" value="&quot;PATH&quot;" />
++      <method v="2" />
++    </configuration>
++    <configuration name="pytest for src.oct.test_lab2.test_verify_sub" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
++      <module name="pyATB4x" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/OCT API Automation" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <option name="_new_keywords" value="&quot;&quot;" />
++      <option name="_new_parameters" value="&quot;&quot;" />
++      <option name="_new_additionalArguments" value="&quot;&quot;" />
++      <option name="_new_target" value="&quot;src.oct.test_lab2.test_verify_sub&quot;" />
++      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
++      <method v="2" />
++    </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.List" />
++        <item itemvalue="Python tests.pytest for src.oct.test_lab2.test_verify_sub" />
++        <item itemvalue="Python tests.Python tests in test_lab1.py" />
+         <item itemvalue="Python.lab006" />
++        <item itemvalue="Python.List" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -306,7 +382,7 @@
+     <breakpoint-manager>
+       <breakpoints>
+         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/src/Personel practice questins of the below topics/List.py</url>
++          <url>file://$PROJECT_DIR$/src/python/Personel practice questins of the below topics/List.py</url>
+           <line>13</line>
+           <option name="timeStamp" value="2" />
+         </line-breakpoint>
+Index: allure_reports/0410d5b8-5468-4b18-938d-e0b5c5f7cedf-attachment.txt
+===================================================================
+diff --git a/allure_reports/0410d5b8-5468-4b18-938d-e0b5c5f7cedf-attachment.txt b/allure_reports/0410d5b8-5468-4b18-938d-e0b5c5f7cedf-attachment.txt
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/0410d5b8-5468-4b18-938d-e0b5c5f7cedf-attachment.txt	
+@@ -0,0 +1,4 @@
++<Response [200]>
++{"firstname":"Jim","lastname":"Ericsson","totalprice":769,"depositpaid":false,"bookingdates":{"checkin":"2015-02-21","checkout":"2024-07-19"}}
++{'firstname': 'Jim', 'lastname': 'Ericsson', 'totalprice': 769, 'depositpaid': False, 'bookingdates': {'checkin': '2015-02-21', 'checkout': '2024-07-19'}}
++{'Server': 'Cowboy', 'Report-To': '{"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728686570&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=onJts%2BdM9LIGgaGJ5i%2FekASq%2F1t%2BAcMy29bOJTLs64Y%3D"}]}', 'Reporting-Endpoints': 'heroku-nel=https://nel.heroku.com/reports?ts=1728686570&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&s=onJts%2BdM9LIGgaGJ5i%2FekASq%2F1t%2BAcMy29bOJTLs64Y%3D', 'Nel': '{"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '142', 'Etag': 'W/"8e-RKaVoxjA5nAl+kYM1aWpsZrkZ8c"', 'Date': 'Fri, 11 Oct 2024 22:42:50 GMT', 'Via': '1.1 vegur'}
+Index: allure_reports/066aee78-6d83-43de-a726-a26694ddcc76-result.json
+===================================================================
+diff --git a/allure_reports/066aee78-6d83-43de-a726-a26694ddcc76-result.json b/allure_reports/066aee78-6d83-43de-a726-a26694ddcc76-result.json
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/066aee78-6d83-43de-a726-a26694ddcc76-result.json	
+@@ -0,0 +1,1 @@
++{"name": "Restful Booker # Project1", "status": "failed", "statusDetails": {"message": "AssertionError: assert 404 != 404\n +  where 404 = <Response [404]>.status_code", "trace": "@allure.title(\"Restful Booker # Project1\")\n    @allure.description(\"Get the Booking id 123456789 (negative TC) for TC3 \")\n    @allure.testcase(\"#Tc3(N)\")\n    @pytest.mark.smoke\n    def test_get_single_booking_by_id_negative_2():\n        url = \"https://restful-booker.herokuapp.com/booking/123456789\"\n        response_data = requests.get(url)\n        print(response_data)\n        print(response_data.text)\n>       assert response_data.status_code != 404\nE       assert 404 != 404\nE        +  where 404 = <Response [404]>.status_code\n\nsrc\\oct\\Test_Get_booking.py:40: AssertionError"}, "description": "Get the Booking id 123456789 (negative TC) for TC3 ", "attachments": [{"name": "stdout", "source": "bcbaefc8-0d64-4b57-88b3-c56cec5a9f5c-attachment.txt", "type": "text/plain"}], "start": 1728686571526, "stop": 1728686571976, "uuid": "70277803-2b98-4b68-b673-6929551b89e8", "historyId": "28265d36dfeb12efe8e2fd4ff704dd5b", "testCaseId": "28265d36dfeb12efe8e2fd4ff704dd5b", "fullName": "src.oct.Test_Get_booking#test_get_single_booking_by_id_negative_2", "labels": [{"name": "tag", "value": "smoke"}, {"name": "parentSuite", "value": "src.oct"}, {"name": "suite", "value": "Test_Get_booking"}, {"name": "host", "value": "MSI"}, {"name": "thread", "value": "11592-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "src.oct.Test_Get_booking"}], "links": [{"type": "tms", "url": "#Tc3(N)", "name": "#Tc3(N)"}]}
+\ No newline at end of file
+Index: allure_reports/0a9c7d6b-7ddb-4c48-995d-a5ab45d53282-result.json
+===================================================================
+diff --git a/allure_reports/0a9c7d6b-7ddb-4c48-995d-a5ab45d53282-result.json b/allure_reports/0a9c7d6b-7ddb-4c48-995d-a5ab45d53282-result.json
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/0a9c7d6b-7ddb-4c48-995d-a5ab45d53282-result.json	
+@@ -0,0 +1,1 @@
++{"name": "Restful Booker # Project1", "status": "passed", "description": "Get the Booking id 1 for TC1 ", "attachments": [{"name": "stdout", "source": "0410d5b8-5468-4b18-938d-e0b5c5f7cedf-attachment.txt", "type": "text/plain"}], "start": 1728686570460, "stop": 1728686570959, "uuid": "e17280ab-08ea-414e-9f2a-0ec806fe87ba", "historyId": "9510cd5777361f0427e32d235ca2c879", "testCaseId": "9510cd5777361f0427e32d235ca2c879", "fullName": "src.oct.Test_Get_booking#test_get_single_booking_by_id_positive", "labels": [{"name": "tag", "value": "P0"}, {"name": "tag", "value": "smoke"}, {"name": "severity", "value": "critical"}, {"name": "owner", "value": "Khalid"}, {"name": "tag", "value": "regression"}, {"name": "tag", "value": "smoke"}, {"name": "parentSuite", "value": "src.oct"}, {"name": "suite", "value": "Test_Get_booking"}, {"name": "host", "value": "MSI"}, {"name": "thread", "value": "11592-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "src.oct.Test_Get_booking"}], "links": [{"type": "tms", "url": "#Tc1(P)", "name": "#Tc1(P)"}]}
+\ No newline at end of file
+Index: allure_reports/7de5755d-8c3b-430e-a550-154b62fd9bd1-result.json
+===================================================================
+diff --git a/allure_reports/7de5755d-8c3b-430e-a550-154b62fd9bd1-result.json b/allure_reports/7de5755d-8c3b-430e-a550-154b62fd9bd1-result.json
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/7de5755d-8c3b-430e-a550-154b62fd9bd1-result.json	
+@@ -0,0 +1,1 @@
++{"name": "Restful Booker # Project1", "status": "failed", "statusDetails": {"message": "AssertionError: assert 404 != 404\n +  where 404 = <Response [404]>.status_code", "trace": "@allure.title(\"Restful Booker # Project1\")\n    @allure.description(\"Get the Booking id -1 (negative TC) for TC2 \")\n    @allure.testcase(\"#Tc2(N)\")\n    @pytest.mark.smoke\n    def test_get_single_booking_by_id_negative():\n        url = \"https://restful-booker.herokuapp.com/booking/-1\"\n        response_data = requests.get(url)\n        print(response_data)\n>       assert response_data.status_code != 404\nE       assert 404 != 404\nE        +  where 404 = <Response [404]>.status_code\n\nsrc\\oct\\Test_Get_booking.py:29: AssertionError"}, "description": "Get the Booking id -1 (negative TC) for TC2 ", "attachments": [{"name": "stdout", "source": "8d8377ff-e594-49b6-ba58-3869b36a7d10-attachment.txt", "type": "text/plain"}], "start": 1728686570961, "stop": 1728686571418, "uuid": "c72fdaa0-dd6b-46b2-b254-8e222a96ac46", "historyId": "6a4b2beb294880efca0653a1a8f81216", "testCaseId": "6a4b2beb294880efca0653a1a8f81216", "fullName": "src.oct.Test_Get_booking#test_get_single_booking_by_id_negative", "labels": [{"name": "tag", "value": "smoke"}, {"name": "parentSuite", "value": "src.oct"}, {"name": "suite", "value": "Test_Get_booking"}, {"name": "host", "value": "MSI"}, {"name": "thread", "value": "11592-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "src.oct.Test_Get_booking"}], "links": [{"type": "tms", "url": "#Tc2(N)", "name": "#Tc2(N)"}]}
+\ No newline at end of file
+Index: allure_reports/8d8377ff-e594-49b6-ba58-3869b36a7d10-attachment.txt
+===================================================================
+diff --git a/allure_reports/8d8377ff-e594-49b6-ba58-3869b36a7d10-attachment.txt b/allure_reports/8d8377ff-e594-49b6-ba58-3869b36a7d10-attachment.txt
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/8d8377ff-e594-49b6-ba58-3869b36a7d10-attachment.txt	
+@@ -0,0 +1,1 @@
++<Response [404]>
+Index: allure_reports/bcbaefc8-0d64-4b57-88b3-c56cec5a9f5c-attachment.txt
+===================================================================
+diff --git a/allure_reports/bcbaefc8-0d64-4b57-88b3-c56cec5a9f5c-attachment.txt b/allure_reports/bcbaefc8-0d64-4b57-88b3-c56cec5a9f5c-attachment.txt
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/bcbaefc8-0d64-4b57-88b3-c56cec5a9f5c-attachment.txt	
+@@ -0,0 +1,2 @@
++<Response [404]>
++Not Found
+Index: allure_reports/bcce6171-afd0-470f-b4e8-32b8b462ddce-result.json
+===================================================================
+diff --git a/allure_reports/bcce6171-afd0-470f-b4e8-32b8b462ddce-result.json b/allure_reports/bcce6171-afd0-470f-b4e8-32b8b462ddce-result.json
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/bcce6171-afd0-470f-b4e8-32b8b462ddce-result.json	
+@@ -0,0 +1,1 @@
++{"name": "Restful Booker # Project1", "status": "passed", "description": "Get the Booking id 34.67 (negative TC) for TC4 ", "attachments": [{"name": "stdout", "source": "facc614b-da95-41f6-b8fd-1294ece22c18-attachment.txt", "type": "text/plain"}], "start": 1728686571982, "stop": 1728686572435, "uuid": "95ef2306-77bb-4931-8b2d-a647a965d73a", "historyId": "4b7fe037aae29053ea794fda0b2a97a0", "testCaseId": "4b7fe037aae29053ea794fda0b2a97a0", "fullName": "src.oct.Test_Get_booking#test_get_single_booking_by_id_negative_3", "labels": [{"name": "tag", "value": "smoke"}, {"name": "parentSuite", "value": "src.oct"}, {"name": "suite", "value": "Test_Get_booking"}, {"name": "host", "value": "MSI"}, {"name": "thread", "value": "11592-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "src.oct.Test_Get_booking"}], "links": [{"type": "tms", "url": "#Tc4(N)", "name": "#Tc4(N)"}]}
+\ No newline at end of file
+Index: allure_reports/facc614b-da95-41f6-b8fd-1294ece22c18-attachment.txt
+===================================================================
+diff --git a/allure_reports/facc614b-da95-41f6-b8fd-1294ece22c18-attachment.txt b/allure_reports/facc614b-da95-41f6-b8fd-1294ece22c18-attachment.txt
+new file mode 100644
+--- /dev/null	
++++ b/allure_reports/facc614b-da95-41f6-b8fd-1294ece22c18-attachment.txt	
+@@ -0,0 +1,2 @@
++<Response [200]>
++{"firstname":"Josh","lastname":"Allen","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"super bowls"}
+diff --git a/src/Sep/ex 31-08-24, (OOps)/test data.py b/src/python/Sep/ex 31-08-24, (OOps)/test data.py
+rename from src/Sep/ex 31-08-24, (OOps)/test data.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/test data.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/testdata.csv.py b/src/python/Sep/ex 31-08-24, (OOps)/testdata.csv.py
+rename from src/Sep/ex 31-08-24, (OOps)/testdata.csv.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/testdata.csv.py
+diff --git a/src/Aug/ex 13-08-24/lab007.py b/src/python/Aug/ex 13-08-24/lab007.py
+rename from src/Aug/ex 13-08-24/lab007.py
+rename to src/python/Aug/ex 13-08-24/lab007.py
+diff --git a/src/Aug/ex 13-08-24/lab0010.py b/src/python/Aug/ex 13-08-24/lab0010.py
+rename from src/Aug/ex 13-08-24/lab0010.py
+rename to src/python/Aug/ex 13-08-24/lab0010.py
+diff --git a/src/Aug/ex 13-08-24/lab009.py b/src/python/Aug/ex 13-08-24/lab009.py
+rename from src/Aug/ex 13-08-24/lab009.py
+rename to src/python/Aug/ex 13-08-24/lab009.py
+diff --git a/src/Aug/ex 13-08-24/lab008.py b/src/python/Aug/ex 13-08-24/lab008.py
+rename from src/Aug/ex 13-08-24/lab008.py
+rename to src/python/Aug/ex 13-08-24/lab008.py
+diff --git a/src/Aug/ex 13-08-24/Home work/hm02.py b/src/python/Aug/ex 13-08-24/Home work/hm02.py
+rename from src/Aug/ex 13-08-24/Home work/hm02.py
+rename to src/python/Aug/ex 13-08-24/Home work/hm02.py
+diff --git a/src/Aug/ex 13-08-24/Home work/hm01.py b/src/python/Aug/ex 13-08-24/Home work/hm01.py
+rename from src/Aug/ex 13-08-24/Home work/hm01.py
+rename to src/python/Aug/ex 13-08-24/Home work/hm01.py
+diff --git a/src/Aug/ex 10-08-24/lab003.py b/src/python/Aug/ex 10-08-24/lab003.py
+rename from src/Aug/ex 10-08-24/lab003.py
+rename to src/python/Aug/ex 10-08-24/lab003.py
+diff --git a/src/Aug/ex 10-08-24/lab006.py b/src/python/Aug/ex 10-08-24/lab006.py
+rename from src/Aug/ex 10-08-24/lab006.py
+rename to src/python/Aug/ex 10-08-24/lab006.py
+diff --git a/src/Aug/ex 10-08-24/lab005.py b/src/python/Aug/ex 10-08-24/lab005.py
+rename from src/Aug/ex 10-08-24/lab005.py
+rename to src/python/Aug/ex 10-08-24/lab005.py
+diff --git a/src/Aug/ex 10-08-24/lab004.py b/src/python/Aug/ex 10-08-24/lab004.py
+rename from src/Aug/ex 10-08-24/lab004.py
+rename to src/python/Aug/ex 10-08-24/lab004.py
+diff --git a/src/Aug/ex_080824/lab002.py b/src/python/Aug/ex_080824/lab002.py
+rename from src/Aug/ex_080824/lab002.py
+rename to src/python/Aug/ex_080824/lab002.py
+diff --git a/src/Aug/ex_080824/lab001.py b/src/python/Aug/ex_080824/lab001.py
+rename from src/Aug/ex_080824/lab001.py
+rename to src/python/Aug/ex_080824/lab001.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/OOPs.py b/src/python/Sep/ex 31-08-24, (OOps)/OOPs.py
+rename from src/Sep/ex 31-08-24, (OOps)/OOPs.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/OOPs.py
+diff --git a/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py b/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py
+rename from src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py
+rename to src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Tuple.py
+diff --git a/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py b/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py
+rename from src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py
+rename to src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/Set.py
+diff --git a/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py b/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py
+rename from src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py
+rename to src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/List.py
+diff --git a/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py b/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py
+rename from src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py
+rename to src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/dictionary.py
+diff --git a/src/Aug/ex 20,22,24-08-24/Functions and types.py b/src/python/Aug/ex 20,22,24-08-24/Functions and types.py
+rename from src/Aug/ex 20,22,24-08-24/Functions and types.py
+rename to src/python/Aug/ex 20,22,24-08-24/Functions and types.py
+diff --git a/src/Aug/ex 20,22,24-08-24/Lambda.py b/src/python/Aug/ex 20,22,24-08-24/Lambda.py
+rename from src/Aug/ex 20,22,24-08-24/Lambda.py
+rename to src/python/Aug/ex 20,22,24-08-24/Lambda.py
+diff --git a/src/Aug/ex 20,22,24-08-24/Decoratives.py b/src/python/Aug/ex 20,22,24-08-24/Decoratives.py
+rename from src/Aug/ex 20,22,24-08-24/Decoratives.py
+rename to src/python/Aug/ex 20,22,24-08-24/Decoratives.py
+diff --git a/src/Aug/ex 17-08-24/theory concepts.py b/src/python/Aug/ex 17-08-24/theory concepts.py
+rename from src/Aug/ex 17-08-24/theory concepts.py
+rename to src/python/Aug/ex 17-08-24/theory concepts.py
+diff --git a/src/python/Sep/__init__.py b/src/python/Sep/__init__.py
+new file mode 100644
+diff --git a/src/Personel practice questins of the below topics/date types.py b/src/python/Personel practice questins of the below topics/date types.py
+rename from src/Personel practice questins of the below topics/date types.py
+rename to src/python/Personel practice questins of the below topics/date types.py
+diff --git a/src/python/Sep/ex 31-08-24, (OOps)/__init__.py b/src/python/Sep/ex 31-08-24, (OOps)/__init__.py
+new file mode 100644
+diff --git a/src/Personel practice questins of the below topics/Loops.py b/src/python/Personel practice questins of the below topics/Loops.py
+rename from src/Personel practice questins of the below topics/Loops.py
+rename to src/python/Personel practice questins of the below topics/Loops.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/OOps 2.py b/src/python/Sep/ex 31-08-24, (OOps)/OOps 2.py
+rename from src/Sep/ex 31-08-24, (OOps)/OOps 2.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/OOps 2.py
+diff --git a/src/Personel practice questins of the below topics/functions.py b/src/python/Personel practice questins of the below topics/functions.py
+rename from src/Personel practice questins of the below topics/functions.py
+rename to src/python/Personel practice questins of the below topics/functions.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/OOps 3.py b/src/python/Sep/ex 31-08-24, (OOps)/OOps 3.py
+rename from src/Sep/ex 31-08-24, (OOps)/OOps 3.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/OOps 3.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/OOps (object oriented programming.py b/src/python/Sep/ex 31-08-24, (OOps)/OOps (object oriented programming.py
+rename from src/Sep/ex 31-08-24, (OOps)/OOps (object oriented programming.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/OOps (object oriented programming.py
+diff --git a/src/Personel practice questins of the below topics/List.py b/src/python/Personel practice questins of the below topics/List.py
+rename from src/Personel practice questins of the below topics/List.py
+rename to src/python/Personel practice questins of the below topics/List.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/Oops 4.py b/src/python/Sep/ex 31-08-24, (OOps)/Oops 4.py
+rename from src/Sep/ex 31-08-24, (OOps)/Oops 4.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/Oops 4.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/00ps 5.py b/src/python/Sep/ex 31-08-24, (OOps)/00ps 5.py
+rename from src/Sep/ex 31-08-24, (OOps)/00ps 5.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/00ps 5.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/exception.py b/src/python/Sep/ex 31-08-24, (OOps)/exception.py
+rename from src/Sep/ex 31-08-24, (OOps)/exception.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/exception.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/os module.py b/src/python/Sep/ex 31-08-24, (OOps)/os module.py
+rename from src/Sep/ex 31-08-24, (OOps)/os module.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/os module.py
+diff --git a/src/Sep/ex 31-08-24, (OOps)/File Handling.py b/src/python/Sep/ex 31-08-24, (OOps)/File Handling.py
+rename from src/Sep/ex 31-08-24, (OOps)/File Handling.py
+rename to src/python/Sep/ex 31-08-24, (OOps)/File Handling.py
+diff --git a/src/Aug/ex 17-08-24/operator concepts.py b/src/python/Aug/ex 17-08-24/operator concepts.py
+rename from src/Aug/ex 17-08-24/operator concepts.py
+rename to src/python/Aug/ex 17-08-24/operator concepts.py
+diff --git a/src/Aug/ex 13-08-24/Home work/__init__.py b/src/python/Aug/__init__.py
+rename from src/Aug/ex 13-08-24/Home work/__init__.py
+rename to src/python/Aug/__init__.py
+diff --git a/src/Aug/ex 13-08-24/__init__.py b/src/python/Aug/ex 10-08-24/__init__.py
+rename from src/Aug/ex 13-08-24/__init__.py
+rename to src/python/Aug/ex 10-08-24/__init__.py
+diff --git a/src/Aug/ex 17-08-24/__init__.py b/src/python/Aug/ex 13-08-24/Home work/__init__.py
+rename from src/Aug/ex 17-08-24/__init__.py
+rename to src/python/Aug/ex 13-08-24/Home work/__init__.py
+diff --git a/src/Aug/ex 20,22,24-08-24/__init__.py b/src/python/Aug/ex 13-08-24/__init__.py
+rename from src/Aug/ex 20,22,24-08-24/__init__.py
+rename to src/python/Aug/ex 13-08-24/__init__.py
+diff --git a/src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py b/src/python/Aug/ex 17-08-24/__init__.py
+rename from src/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py
+rename to src/python/Aug/ex 17-08-24/__init__.py
+diff --git a/src/Aug/ex_080824/__init__.py b/src/python/Aug/ex 20,22,24-08-24/__init__.py
+rename from src/Aug/ex_080824/__init__.py
+rename to src/python/Aug/ex 20,22,24-08-24/__init__.py
+diff --git a/src/Sep API theory and practicle/__init__.py b/src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py
+rename from src/Sep API theory and practicle/__init__.py
+rename to src/python/Aug/ex 29-08-24, (List, Tuple, Dictionary, Set)/__init__.py
